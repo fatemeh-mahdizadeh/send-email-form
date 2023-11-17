@@ -1,3 +1,4 @@
+
 const sendBtn = document.querySelector(".btnoff"),
   email = document.querySelector(".email"),
   subject = document.querySelector(".subject"),
@@ -75,7 +76,7 @@ function submitForm(e) {
 
   //add imagge email
   const sendEmailImg = document.createElement("img");
-  sendEmailImg.src = "../img/mail.gif";
+  sendEmailImg.src = "./img/mail.gif";
   sendEmailImg.classList = "w-2/12";
 
   setTimeout(function () {

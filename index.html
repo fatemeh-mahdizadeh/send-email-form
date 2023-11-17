@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send New Email</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-purple-300 " >
+    <main class="flex flex-col items-center w-12/12 ">
+        <div class="w-6/12 mt-20 bg-white border-h rounded-lg ">
+            <h2 class="text-center text-white bg-red-700 h-16 text-lg pt-5 rounded-sm">Send New Email</h2>
+            <div >
+                
+                <form action="" class="flex flex-col items-center my-10  " >
+                    <label for="" class="flex flex-row my-5 w-10/12 border-b-2 border-gray-400">
+                        <p class="mr-4 text-gray-600 mb-3">to:</p>
+                        <input type="email" name="" id="" class="input email mb-2 w-11/12">
+                    </label>
+                    <label for="" class="flex flex-row my-5 w-10/12 border-b-2 border-gray-400">
+                        <p class="mr-4 text-gray-600 mb-3">subject:</p>
+                        <input type="text" name="" id="" class="input subject  mb-2 w-11/12">
+                    </label>
+                    <label for="" class="flex flex-row my-5  w-10/12 border-b-2 border-gray-400">
+                        <p class="mr-4 text-gray-600 mb-3">Mesage</p>
+                        <input type="text" name="" id="" class="input Mesage mb-2 w-11/12">
+                    </label>
+                    
+                    
+                    <div class="flex flex-col w-10/12 ">
+                        <div class="mx-auto w-12/12 justify-center flex">
+                            <img src="./img/spinner.gif" alt="" class="w-2/12 hidden spinner">
+                        </div>
+
+
+                        <div class="flex flex-row mt-10 justify-between divSubmit ">
+                            <button type="submit" class="border btnoff w-40 bg-red-700 flex flex-row justify-center rounded-lg  ">
+                                <p class="mt-1 text-lg">SEND</p>
+                                <img src="./img/paper-plane-regular.svg" class="w-5 ml-3 py-2 mt-0.5" alt="">
+                            </button>
+                            <button class=" border w-40 bg-blue-700 flex flex-row justify-center rounded-lg RESET">
+                                <p class="mt-1 text-lg">RESET</p>
+                                <img src="./img/trash-can-regular.svg" class="w-5 ml-3 py-2" alt="">
+                            </button>
+                        </div>
+    
+                    </div>
+                    
+    
+                </form>
+            </div>
+        </div>
+
+    </main>
+    
+    
+    
+    <script src="./app.js"></script>
+</body>
+</html>
